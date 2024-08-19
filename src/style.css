@@ -50,7 +50,7 @@ padding: 0;
   height: 900px;
 }
 #background{
-  height: 100%;
+  height: auto;
   position: absolute;
 }
 
@@ -1047,7 +1047,7 @@ footer
 .main-img img {
   border-radius: 0px 0px 0px 0px;
   width: 100%;
-  margin-bottom: 0px;
+   margin-bottom: 0px;
 }
 
 .top-container {
@@ -1610,4 +1610,22 @@ padding-right: 0;
   /* 클릭 불가능 none */
   pointer-events : none;
   background-color: lightsalmon;
+}
+
+.video-container {
+  display: flex;
+  flex-direction: column; /* 세로로 배치 */
+  align-items: center; /* 가운데 정렬 */
+  gap: 30px; /* 두 영상 사이에 간격 추가 */
+  padding: 10px; /* 내부 여백 */
+  border-radius: 10px; /* 둥근 모서리 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 부드러운 그림자 */
+  max-width: 600px; /* 최대 너비 설정 */
+  margin: 40px auto; /* 상하좌우 중앙 정렬 */
+}
+
+.video-container iframe {
+  width: 100%; /* 영상 너비를 부모 컨테이너에 맞춤 */
+  height: 220px; /* 높이를 자동으로 조정 */
+  border-radius: 10px; /* 영상 모서리도 둥글게 */
 }
