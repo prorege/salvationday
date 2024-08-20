@@ -1619,7 +1619,7 @@ padding-right: 0;
   gap: 30px; /* 두 영상 사이에 간격 추가 */
   padding: 10px; /* 내부 여백 */
   border-radius: 10px; /* 둥근 모서리 */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 부드러운 그림자 */
+  box-shadow: 0 4px 8px rgba(0.1, 0, 0, 0.1); /* 부드러운 그림자 */
   max-width: 600px; /* 최대 너비 설정 */
   margin: 40px auto; /* 상하좌우 중앙 정렬 */
 }
