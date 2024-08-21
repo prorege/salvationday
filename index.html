@@ -160,14 +160,25 @@
                     <img src="./img2/insta.png" class="sns-logo" />
                 </a>
             </div>
-            <div class="footer-socials">
+            <!-- <div class="footer-socials">
                 <img
                   style="width: 50%; margin: 30px auto 0px auto"
                   src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fprorege.github.io%2Fsalvationday%2F&count_bg=%234979ED&title_bg=%2388C5E5&icon=&icon_color=%23E7E7E7&title=%EB%B0%A9%EB%AC%B8%EC%9E%90+%EC%88%98%28%EC%9D%BC%2F%EC%A0%84%EC%B2%B4%29&edge_flat=false"
                 />
+              </div> -->
+
+              <div class="footer-socials">
+                <img id="visitor-badge" style="width: 50%; margin: 30px auto 0px auto" />
               </div>
-
-
+              
+              <script>
+                // 페이지가 로드된 후에 실행될 함수
+                window.onload = function() {
+                  const badge = document.getElementById('visitor-badge');
+                  badge.src = "https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fprorege.github.io%2Fsalvationday%2F&count_bg=%234979ED&title_bg=%2388C5E5&icon=&icon_color=%23E7E7E7&title=%EB%B0%A9%EB%AC%B8%EC%9E%90+%EC%88%98%28%EC%9D%BC%2F%EC%A0%84%EC%B2%B4%29&edge_flat=false";
+                };
+              </script>
+              
 
             <div id="information2" style="width: 70%; margin-top: 30px">
                 <p class="copyText">
